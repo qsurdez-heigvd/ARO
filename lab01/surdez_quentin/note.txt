@@ -1,0 +1,21 @@
+Ray Eva
+Surdez Quentin
+
+Conception labo 01 :  0.89 / 1.       Poids : 1.0
+Bonus / Malus      :   0.0 / 1.       Poids : 5.0
+
+Note finale        : 5.5
+
+
+Remarque assistant: 
+bloc Fetch : l'entrée Cin de l'additionneur pour l'incrément du PC n'est pas connecté.
+
+bloc offset_incond : l'entrée Cin des additionneurs pour le calcul de l'addresse de branch ne sont pas connectés.
+
+Bloc fetch : Pour l'entrée cond_i du condition tester il fallait utiliser le fetch control bus(5..2), vous utilisez instr_data(11..8) -> fonctionne car dans le fetch_control_bus(5..2) il y a instr_data(11..8) mais le fetch_control_bus perd en uttilité...
+
+Bloc fetch : Il fallait aussi connecter le signal sortant de la porte AND après le condition tester (= indication de branch) à la sortie branch_o pour permettre de ressortir l'information du bloc fetch
+
+bloc offset_cond : l'entrée Cin des additionneurs pour le calcul de l'addresse de branch ne sont pas connectés. 
+
+Remarque assistant: 

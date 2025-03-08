@@ -1,0 +1,11 @@
+Q-1 : 
+OK
+
+Q-2 :
+OK, n'hésiter pas à annoter le chronogramme pour plus de lisibilité et d'indiquer le nom des signaux si ils sont tronqués dans la capture
+
+Q-3 : 
+Comme ce chronogramme est sensé montrer des sauts, il aurait été bien de mettre les signaux detection_branch (fetch_control_bus) et branch_addr dedans
+
+Q-4 :
+OK
